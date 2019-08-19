@@ -19,10 +19,10 @@
 
   1) Filters:
 
-  * Movie Table: year, director, producer, hero, heroine and language
-  * Producer Table: language, year
-  * Director Table: language, year
-  * Artist Table: language, year
+  * Movie Table: date(from and to), director, producer, hero, heroine and language
+  * Producer Table: language, date(from and to)
+  * Director Table: language, date(from and to)
+  * Artist Table: language, date(from and to)
   2) Every API need to be documented properly.
   3) Every API to be tested with RSpec
   4) Validation to be done on mandatory fields.
