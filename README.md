@@ -1,34 +1,35 @@
 # Movies DB Porject
 
 ## Software Requirements:
-  --* OS: MAC / Ubuntu
-  --* Ruby
-  --* Rails
-  --* Database: PostgreSQL / MySQL
+  * OS: MAC / Ubuntu
+  * Ruby
+  * Rails
+  * Database: PostgreSQL / MySQL
 
 ## Models required:
 
-  Movie
-  Artist
-  Director
-  Producer
-  User
-  Session
+  * Movie
+  * Artist
+  * Director
+  * Producer
+  * User
+  * Session
 
 ## Important:
 
   1) Filters:
-      --* Movie Table: year, director, producer, hero, heroine and language
-      --* Producer Table: language, year
-      --* Director Table: language, year
-      --* Artist Table: language, year
+
+  * Movie Table: year, director, producer, hero, heroine and language
+  * Producer Table: language, year
+  * Director Table: language, year
+  * Artist Table: language, year
   2) Every API need to be documented properly.
   3) Every API to be tested with RSpec
   4) Validation to be done on mandatory fields.
   5) User types:
-      --* Admin
-      --* Content Manager(only Admin can create this user) and
-      --* Content Viewer(this will be public user who will just view the content)
+  * Admin
+  * Content Manager(only Admin can create this user) and
+  * Content Viewer(this will be public user who will just view the content)
 
 ## APIs Required
 
