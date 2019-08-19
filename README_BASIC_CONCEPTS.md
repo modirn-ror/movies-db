@@ -7,13 +7,13 @@
 
 ## System Setup:  (1 day)
 
-  OS: Ubuntu/Mac OS
-  Ruby/Rails Version Management: RVM
-  Ruby/Rails Setup: https://gorails.com/setup/ubuntu/18.04
-  Version Control: Mercurial(hg) and Git(will come in-built by Ubuntu)
-  Database: PostgreSQL and MySQL
-  RSpec Testing Framework
-  GitHub Account
+  * OS: Ubuntu/Mac OS
+  * Ruby/Rails Version Management: RVM
+  * Ruby/Rails Setup: https://gorails.com/setup/ubuntu/18.04
+  * Version Control: Mercurial(hg) and Git(will come in-built by Ubuntu)
+  * Database: PostgreSQL and MySQL
+  * RSpec Testing Framework
+  * GitHub Account
 
 
 ## Ruby: (3 days)
