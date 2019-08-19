@@ -13,6 +13,7 @@ Models required:
 
 Model name: User(singular)
 Controller and table name: users(plural)
+
 | No | URI | HTTP Verb | Action | Display/Output |
 |---|------------|---------------|-------------|--------------------------|
 | 1 | Create new user.| /register | POST | #create | returns created user data and HTTP Response in JSON format |
@@ -23,6 +24,7 @@ Controller and table name: users(plural)
 
 Model name: Movie(singular)
 Controller and table name: movies(plural)
+
 | No | URI | HTTP Verb | Action | Display/Output|
 |---|------------|---------------|-------------|--------------------------|
 | 1 | User would like to create new movie.| /sessions/:session_id/movies | POST | #create | returns created movie data and HTTP Response in JSON format |
@@ -35,6 +37,7 @@ Controller and table name: movies(plural)
 
 Model name: Artist (singular)
 Controller and table name: artists(plural)
+
 | No | URI | HTTP Verb | Action | Display/Output|
 |---|------------|---------------|-------------|--------------------------|
 | 1 | User would like to create new artist.| /artists | POST | #create | returns created artist data and HTTP Response in JSON format |
@@ -47,6 +50,7 @@ Controller and table name: artists(plural)
 
 Model name: Director (singular)
 Controller and table name: directors(plural)
+
 | No | URI | HTTP Verb | Action | Display/Output|
 |---|------------|---------------|-------------|--------------------------|
 | 1 | User would like to create new director.| /directors | POST | #create | returns created director data and HTTP Response in JSON format |
@@ -59,6 +63,7 @@ Controller and table name: directors(plural)
 
 Model name: Producer (singular)
 Controller and table name: producers(plural)
+
 | No | URI | HTTP Verb | Action | Display/Output|
 |---|------------|---------------|-------------|--------------------------|
 | 1 | User would like to create new producer.| /producers | POST | #create | returns created producer data and HTTP Response in JSON format |
