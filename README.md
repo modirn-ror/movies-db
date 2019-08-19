@@ -1,25 +1,48 @@
-# movies-db
-Ruby on Rails API only Application Training
+# Movies DB Porject
 
-Models required:
+## Models required:
 
   Movie
   Artist
   Director
   Producer
+  User
+  Session
 
-  User( for CRUD actions)
+## Important:
 
+  1) Filters:
+      --* Movie Table: year, director, producer, hero, heroine and language
+      --* Producer Table: language, year
+      --* Director Table: language, year
+      --* Artist Table: language, year
+  2) Every API need to be documented properly.
+  3) Every API to be tested with RSpec
+  4) Validation to be done on mandatory fields.
+  5) User types:
+      --* Admin
+      --* Content Manager(only Admin can create this user) and
+      --* Content Viewer(this will be public user who will just view the content)
+
+## APIs Required
 
 Model name: User(singular)
 Controller and table name: users(plural)
 
 | No | URI | HTTP Verb | Action | Display/Output |
 |---|------------|---------------|-------------|--------------------------|
-| 1 | Create new user.| /register | POST | #create | returns created user data and HTTP Response in JSON format |
-| 2 | User can update his/her details | /sessions/:session_id/users/:user-friendly-id | GET | #show | returns user data  and HTTP Response in JSON format |
-| 3 | User can update his/her details | /sessions/:session_id/users/:user-friendly-id | PUT/PATCH | #update | returns updated user data and HTTP Response  in JSON format |
+| 1 | Create new user.| /register | POST | #create | returns created user data and HTTP Response in JSON format. Send an Email to user with verification link |
+| 2 | Verify new user.| /verify | PUT | #verify | returns created user data and HTTP Response in JSON format |
+| 3 | User can update his/her details | /sessions/:session_id/users/:user-id | GET | #show | returns user data  and HTTP Response in JSON format |
+| 4 | User can update his/her details | /sessions/:session_id/users/:user-id | PUT/PATCH | #update | returns updated user data and HTTP Response  in JSON format |
 
+Model name: Session(singular)
+Controller and table name: sessions(plural)
+
+| No | URI | HTTP Verb | Action | Display/Output |
+|---|------------|---------------|-------------|--------------------------|
+| 1 | Create session for user.| /login | POST | #create | returns user data and HTTP Response in JSON format |
+| 2 | Delete user's session| /sessions/:session_id/logout | POST | #delete | returns success/failuer details and HTTP Response in JSON format |
 
 
 Model name: Movie(singular)
