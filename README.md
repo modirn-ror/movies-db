@@ -1,5 +1,11 @@
 # Movies DB Porject
 
+## Software Requirements:
+  --* OS: MAC / Ubuntu
+  --* Ruby
+  --* Rails
+  --* Database: PostgreSQL / MySQL
+
 ## Models required:
 
   Movie
