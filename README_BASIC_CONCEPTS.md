@@ -14,13 +14,17 @@
   * Database: PostgreSQL and MySQL
   * RSpec Testing Framework
   * GitHub Account
+  * Text Editor: Sublime Text 3/ VS Code
+  * rubocop gem
 
 
 ## Ruby: (3 days)
 
   * Operators and Precedence
   * Variables and Assignments
+  * Loops or Iterators
   * Numbers
+  * Ranges
   * Strings and Symbols
   * Array
   * Hash
@@ -28,6 +32,8 @@
   * Procs, Lambdas and Blocks
   * Modules and Mixins
   * Classes
+  * Inheritance
+  * Encapsulation
   * Methods and its types
 
 
