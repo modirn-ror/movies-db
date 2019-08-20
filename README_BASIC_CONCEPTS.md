@@ -16,6 +16,7 @@
   * GitHub Account
   * Text Editor: Sublime Text 3/ VS Code
   * rubocop gem
+  * Nginx or Apache Server
 
 
 ## Ruby: (3 days)
@@ -33,7 +34,7 @@
   * Modules and Mixins
   * Classes
   * Inheritance
-  * Encapsulation
+  * Exncapsulation
   * Methods and its types
 
 
