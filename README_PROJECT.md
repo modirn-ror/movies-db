@@ -36,7 +36,7 @@
 Model name: User(singular)
 Controller and table name: users(plural)
 
-| No | URI | HTTP Verb | Action | Display/Output |
+| No | URI | HTTP Verb | Action |
 |---|------------|---------------|-------------|--------------------------|
 | 1 | Create new user.| /register | POST | #create | returns created user data and HTTP Response in JSON format. Send an Email to user with verification link |
 | 2 | Verify new user.| /verify | PUT | #verify | returns created user data and HTTP Response in JSON format |
@@ -46,7 +46,7 @@ Controller and table name: users(plural)
 Model name: Session(singular)
 Controller and table name: sessions(plural)
 
-| No | URI | HTTP Verb | Action | Display/Output |
+| No | URI | HTTP Verb | Action |
 |---|------------|---------------|-------------|--------------------------|
 | 1 | Create session for user.| /login | POST | #create | returns user data and HTTP Response in JSON format |
 | 2 | Delete user's session| /sessions/:session_id/logout | POST | #delete | returns success/failuer details and HTTP Response in JSON format |
@@ -55,7 +55,7 @@ Controller and table name: sessions(plural)
 Model name: Movie(singular)
 Controller and table name: movies(plural)
 
-| No | URI | HTTP Verb | Action | Display/Output|
+| No | Description | URI | HTTP Verb | Action |
 |---|------------|---------------|-------------|--------------------------|
 | 1 | User would like to create new movie.| /sessions/:session_id/movies | POST | #create | returns created movie data and HTTP Response in JSON format |
 | 2 | User need to get movie details | /sessions/:session_id/movies/:movie-friendly-id | GET | #show | returns movie data  and HTTP Response in JSON format |
@@ -68,7 +68,7 @@ Controller and table name: movies(plural)
 Model name: Artist (singular)
 Controller and table name: artists(plural)
 
-| No | URI | HTTP Verb | Action | Display/Output|
+| No | Description | URI | HTTP Verb | Action |
 |---|------------|---------------|-------------|--------------------------|
 | 1 | User would like to create new artist.| /artists | POST | #create | returns created artist data and HTTP Response in JSON format |
 | 2 | User need to get artist details | /artists/:artist-friendly-id | GET | #show | returns artist data  and HTTP Response in JSON format |
@@ -81,7 +81,7 @@ Controller and table name: artists(plural)
 Model name: Director (singular)
 Controller and table name: directors(plural)
 
-| No | URI | HTTP Verb | Action | Display/Output|
+| No | Description | URI | HTTP Verb | Action |
 |---|------------|---------------|-------------|--------------------------|
 | 1 | User would like to create new director.| /directors | POST | #create | returns created director data and HTTP Response in JSON format |
 | 2 | User need to get director details | /directors/:director-friendly-id | GET | #show | returns director data  and HTTP Response in JSON format |
@@ -94,7 +94,7 @@ Controller and table name: directors(plural)
 Model name: Producer (singular)
 Controller and table name: producers(plural)
 
-| No | URI | HTTP Verb | Action | Display/Output|
+| No | Description | URI | HTTP Verb | Action |
 |---|------------|---------------|-------------|--------------------------|
 | 1 | User would like to create new producer.| /producers | POST | #create | returns created producer data and HTTP Response in JSON format |
 | 2 | User need to get producer details | /producers/:producer-friendly-id | GET | #show | returns producer data  and HTTP Response in JSON format |
